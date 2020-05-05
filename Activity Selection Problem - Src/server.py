@@ -27,7 +27,7 @@ for index in range(len(df)):
     var = df[index]['Finish'].split(" ")
     endTime.append(var[1])
 
-endTime = sorted(endTime)
+#endTime = sorted(endTime)
 
 def Time(s, f ):
     start = s.split(":")
